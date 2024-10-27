@@ -513,15 +513,14 @@ a {
 }
 
 .footer-input {
-  margin-top: 16px;
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  padding: 8px 16px;
+  padding-left: 16px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: transparent;
@@ -533,8 +532,6 @@ a {
 }
 
 .footer-email-input {
-  display: flex;
-  justify-content: space-between;
   align-items: flex-end;
   gap: 24px;
   max-width: 453px;
@@ -547,6 +544,10 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .footer-submit-btn {
@@ -600,7 +601,10 @@ a {
 }
 
 .modal {
-  padding: 72px 24px 24px 24px;
+  padding-top: 72px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
   width: 408px;
   min-height: 584px;
   background-color: #fcfcfc;
@@ -770,10 +774,10 @@ a {
 .modal-policy-check {
   width: 16px;
   height: 16px;
+  display: inline-flex;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
