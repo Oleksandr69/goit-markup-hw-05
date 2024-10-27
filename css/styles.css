@@ -535,6 +535,9 @@ a {
   align-items: flex-end;
   gap: 24px;
   max-width: 453px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .footer-label {
@@ -545,9 +548,6 @@ a {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
 }
 
 .footer-submit-btn {
